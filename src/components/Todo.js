@@ -32,7 +32,7 @@ function Todo() {
       <div className="panel-heading">
         ITSS ToDoアプリ
       </div>
-      {items.map(item => (
+      {items.map( item => (
         <TodoItem 
           key={item.key}
           item={item}
